@@ -17,6 +17,7 @@ libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % Test
 libraryDependencies += "uk.gov.hmrc" %% "simple-reactivemongo" % "7.26.0-play-26"
 libraryDependencies += "uk.gov.hmrc" %% "hmrctest" % "3.9.0-play-26" % Test
+libraryDependencies += "org.mockito" % "mockito-core" % "2.28.2" % Test
 
 
 // Adds additional packages into Twirl

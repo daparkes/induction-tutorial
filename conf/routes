@@ -10,7 +10,7 @@ GET           /assets/*file        controllers.Assets.versioned(path="/public", 
 GET           /api/index           controllers.ApplicationController.index
 
 # crud
-GET           /read:id             controllers.ApplicationController.read(id: String)
-POST          /create              controllers.ApplicationController.create
-PUT           /update:id           controllers.ApplicationController.update(id: String)
-DELETE        /delete:id           controllers.ApplicationController.delete(id: String)
+GET           /api/:id             controllers.ApplicationController.read(id: String)
+POST          /api                 controllers.ApplicationController.create
+PUT           /api/:id             controllers.ApplicationController.update(id: String)
+DELETE        /api/:id             controllers.ApplicationController.delete(id: String)
